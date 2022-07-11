@@ -11,6 +11,11 @@ public class TestController {
         return "Hello Siwon!";
     }
 	
+	@RequestMapping("/siwon")
+    public String helloSiwonTest() {
+        return "Hello Siwon-Test!";
+    }
+	
 	@RequestMapping("/new")
     public String newPath() {
         return "Hello Minju!";
