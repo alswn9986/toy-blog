@@ -14,6 +14,7 @@ public class TestController {
 	@RequestMapping("/siwon")
     public String helloSiwonTest() {
         return "Hello Siwon-Test!";
+        
     }
 	
 	@RequestMapping("/new")
