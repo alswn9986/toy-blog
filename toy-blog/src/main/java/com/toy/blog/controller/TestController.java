@@ -10,6 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.toy.blog.model.User;
 import com.toy.blog.service.TestService;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 @RestController
 public class TestController {
 	
@@ -28,6 +31,8 @@ public class TestController {
 	
 	@RequestMapping("/temp")
     public List<User> testTempData() {
+		log.debug("############### hello world ################");
+		
 		User user = new User("Eric", 16);
 		List<User> list = Arrays.asList(user);
 		return list;

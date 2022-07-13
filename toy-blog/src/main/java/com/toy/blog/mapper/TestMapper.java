@@ -1,4 +1,4 @@
-package com.toy.blog.dao;
+package com.toy.blog.mapper;
 
 import java.util.List;
 
